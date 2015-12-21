@@ -1,5 +1,6 @@
 library(rvest)
 
+# Local URL
 url <- "http://math.aalto.fi/en/current/publications/articles/"
 
 linknodes <- url %>%

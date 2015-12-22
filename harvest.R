@@ -12,6 +12,7 @@ ids <- linknodes %>%
   strsplit(., "/") %>%
   lapply(., function(x) gsub("\\?id=", "", x[6]))
 
+# base
 baseurl <- "http://math.aalto.fi/en/current/publications/bibtex/?id="
 
 texts <- lapply(ids, function(x) {
